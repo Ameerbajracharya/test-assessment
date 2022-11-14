@@ -1,0 +1,29 @@
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <select name="country" class="form-select">
+                        <option value=""></option>
+                    </select>
+                    <select name="city" class="form-select">
+                        <option value=""></option>
+                    </select>
+                    <select name="country" class="form-select">
+                        <option value=""></option>
+                    </select>
+                </div>
+
+                <div class="card-body">
+                    <table>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
